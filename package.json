@@ -1,0 +1,37 @@
+{
+  "name": "walm-table",
+  "private": false,
+  "version": "0.0.19",
+  "keywords": [
+    "table",
+    "naive-ui",
+    "demo"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vue-tsc --noEmit && vite preview"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/walm-table.umd.js",
+  "module": "lib/walm-table.js",
+  "exports": {
+    ".": {
+      "import": "./lib/walm-table.js",
+      "require": "./lib/walm-table.umd.js"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "naive-ui": "^2.32.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  }
+}
