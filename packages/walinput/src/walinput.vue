@@ -7,7 +7,7 @@
   </n-space>
 </template>
 
-<script setup>
+<script setup name="wal-input">
   import { NSpace,  NInput} from 'naive-ui'
   console.log('dddd')
 </script>

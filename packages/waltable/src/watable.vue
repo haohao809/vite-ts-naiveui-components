@@ -28,7 +28,7 @@
   </n-table>
 </template>
 
-<script lang='ts'  setup> 
+<script lang='ts'  setup name="WaTable"> 
   import { NTable } from 'naive-ui'
   console.log('dddd')
 </script>
