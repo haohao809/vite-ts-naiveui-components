@@ -1,7 +1,7 @@
 {
-  "name": "walm-table",
+  "name": "walm",
   "private": false,
-  "version": "0.0.19",
+  "version": "0.1.1",
   "keywords": [
     "table",
     "naive-ui",
@@ -16,12 +16,12 @@
   "files": [
     "lib"
   ],
-  "main": "lib/walm-table.umd.js",
-  "module": "lib/walm-table.js",
+  "main": "lib/walm.umd.js",
+  "module": "lib/walm.js",
   "exports": {
     ".": {
-      "import": "./lib/walm-table.js",
-      "require": "./lib/walm-table.umd.js"
+      "import": "./lib/walm.js",
+      "require": "./lib/walm.umd.js"
     }
   },
   "dependencies": {

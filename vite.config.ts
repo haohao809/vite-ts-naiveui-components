@@ -9,8 +9,8 @@ export default defineConfig({
      outDir: 'lib',
      lib: {
       entry: resolve(__dirname, 'packages/index.ts'),
-      name: 'WalmTable',
-      fileName: 'walm-table',
+      name: 'Walm',
+      fileName: 'walm',
      },
      rollupOptions: {
        external:['vue'],
