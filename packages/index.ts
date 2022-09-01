@@ -1,8 +1,9 @@
 import { App } from 'vue'
 import WaTable from './waltable'
 import WalInput from './walinput'
-export { WaTable, WalInput}
-const components = [WaTable,WalInput]
+import WalButton from './walbutton'
+export { WaTable, WalInput, WalButton }
+const components = [WaTable,WalInput,WalButton]
 
 const install = (app: App) => {
   components.forEach(component => {

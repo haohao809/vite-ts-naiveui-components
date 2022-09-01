@@ -1,7 +1,7 @@
 {
   "name": "walm",
   "private": false,
-  "version": "0.1.3",
+  "version": "0.1.5",
   "keywords": [
     "table",
     "naive-ui",
@@ -25,7 +25,8 @@
     }
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "vue": "^3.2.37",
+    "walm-beta": "^0.1.7"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",

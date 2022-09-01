@@ -476,6 +476,13 @@
     "vdirs" "^0.1.4"
     "vooks" "^0.2.4"
 
+"walm-beta@^0.1.7":
+  "integrity" "sha512-s/sgz/v07dbCenO5NI6bbU9hAyuQsOSmOX0qGN/I5nwUSKaHaweIYmZvp6Q7aBFzgD1JQrjA7dT+tBC4WUbphA=="
+  "resolved" "https://registry.npmjs.org/walm-beta/-/walm-beta-0.1.7.tgz"
+  "version" "0.1.7"
+  dependencies:
+    "vue" "^3.2.37"
+
 "yallist@^4.0.0":
   "integrity" "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A=="
   "resolved" "https://registry.npmmirror.com/yallist/-/yallist-4.0.0.tgz"
